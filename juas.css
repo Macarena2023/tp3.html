@@ -1,0 +1,76 @@
+/* Estilos generales */
+a {
+    color: #fa6666; /* Color de enlaces */
+    text-decoration: none;
+}
+body {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+line-height: 1.8;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+}
+/* Encabezado */
+header {
+background-color: #f59292;
+color: #fff;
+padding: 10px 0;
+text-align: center;
+}
+/* Menú de navegación */
+a:hover {color: #fd7a7a;}
+nav {
+background-color: #fa5c5c;
+color: #fff;
+}
+nav ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: flex;
+justify-content: center;
+}
+nav ul li {
+margin: 0 30px;
+}
+nav ul li a {
+color: #f7a2a2;
+text-decoration: none;
+}
+
+Laboratorio de Programación - 6° G
+
+nav ul li a:hover {
+text-decoration: underline;
+}
+/* Contenido principal */
+main{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin: 20px;
+}
+main section {
+flex: 1 1 45%;
+margin: 10px;
+padding: 20px;
+background-color: #ffc5c5;
+box-shadow: 0 0 10px rgba(255, 175, 175, 0.274);
+}
+/* Barra lateral */
+aside {
+flex: 1 1 20%;
+margin: 10px;
+padding: 20px;
+background-color: #fff;
+box-shadow: 0 0 10px rgba(248, 171, 171, 0.281);
+}
+/* Pie de página */
+footer {
+background-color: #f59292;
+color: #fff;
+text-align: center;
+padding: 10px 0;
+position: relative;
+bottom: 0;
+width: 100%;
